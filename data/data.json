@@ -1,0 +1,252 @@
+{
+  "url": "https://vibe-backend-production-239934307367.asia-south1.run.app/api/quizzes/6968e131bf2860d6e3905642/attempt",
+  "data": {
+    "attemptId": "696cff68983c2d6fb59fd79f",
+    "questionRenderViews": [
+      {
+        "_id": {
+          "buffer": {
+            "type": "Buffer",
+            "data": [
+              105,
+              104,
+              225,
+              48,
+              191,
+              40,
+              96,
+              214,
+              227,
+              144,
+              84,
+              210
+            ]
+          }
+        },
+        "type": "SELECT_ONE_IN_LOT",
+        "isParameterized": false,
+        "text": "What is the return type of the function announce()?",
+        "hint": "The function only logging a message.",
+        "points": 5,
+        "timeLimitSeconds": 60,
+        "lotItems": [
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  138,
+                  253,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  226
+                ]
+              }
+            },
+            "text": "string",
+            "explaination": "Incorrect. The function is not returning a string."
+          },
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  138,
+                  253,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  228
+                ]
+              }
+            },
+            "text": "boolean",
+            "explaination": "Incorrect. It is not returning any boolean value."
+          },
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  138,
+                  253,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  229
+                ]
+              }
+            },
+            "text": "void",
+            "explaination": "Correct. Clearly mentioned and visible in code that console.log is done and nothing is returned."
+          },
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  138,
+                  253,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  227
+                ]
+              }
+            },
+            "text": "number",
+            "explaination": "Incorrect. There is nothing to return which of numeric type."
+          }
+        ],
+        "priority": "LOW"
+      },
+      {
+        "_id": {
+          "buffer": {
+            "type": "Buffer",
+            "data": [
+              105,
+              104,
+              225,
+              48,
+              191,
+              40,
+              96,
+              214,
+              227,
+              144,
+              84,
+              211
+            ]
+          }
+        },
+        "type": "SELECT_ONE_IN_LOT",
+        "isParameterized": false,
+        "text": "What will console.log(activeMode) display when activeMode = running?",
+        "hint": "The typescript enums default to numeric indexing.",
+        "points": 5,
+        "timeLimitSeconds": 60,
+        "lotItems": [
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  139,
+                  143,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  232
+                ]
+              }
+            },
+            "text": "undefined",
+            "explaination": "Incorrect. The value is defined to running, it cannot be undefined at all."
+          },
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  139,
+                  143,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  234
+                ]
+              }
+            },
+            "text": "1",
+            "explaination": "Correct. Will show the 1 which is the corresponding index for the \"running\"."
+          },
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  139,
+                  143,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  231
+                ]
+              }
+            },
+            "text": "running",
+            "explaination": "Incorrect. Will not show the string value."
+          },
+          {
+            "_id": {
+              "buffer": {
+                "type": "Buffer",
+                "data": [
+                  105,
+                  48,
+                  139,
+                  143,
+                  245,
+                  40,
+                  163,
+                  62,
+                  148,
+                  240,
+                  185,
+                  233
+                ]
+              }
+            },
+            "text": "Mode.running",
+            "explaination": "Mode.running is the enum reference, not the console output."
+          }
+        ],
+        "priority": "LOW"
+      }
+    ]
+  }
+}

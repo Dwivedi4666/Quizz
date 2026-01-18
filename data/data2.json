@@ -1,0 +1,54 @@
+[
+  {
+    "question": "What is the return type of the function announce()?",
+    "options": [
+      {
+        "id": "69308afdf528a33e94f0b9e2",
+        "text": "string",
+        "explaination": "Incorrect. The function is not returning a string."
+      },
+      {
+        "id": "69308afdf528a33e94f0b9e4",
+        "text": "boolean",
+        "explaination": "Incorrect. It is not returning any boolean value."
+      },
+      {
+        "id": "69308afdf528a33e94f0b9e5",
+        "text": "void",
+        "explaination": "Correct. Clearly mentioned and visible in code that console.log is done and nothing is returned."
+      },
+      {
+        "id": "69308afdf528a33e94f0b9e3",
+        "text": "number",
+        "explaination": "Incorrect. There is nothing to return which of numeric type."
+      }
+    ],
+    "answer": "69308afdf528a33e94f0b9e5"
+  },
+  {
+    "question": "What will console.log(activeMode) display when activeMode = running?",
+    "options": [
+      {
+        "id": "69308b8ff528a33e94f0b9e8",
+        "text": "undefined",
+        "explaination": "Incorrect. The value is defined to running, it cannot be undefined at all."
+      },
+      {
+        "id": "69308b8ff528a33e94f0b9ea",
+        "text": "1",
+        "explaination": "Correct. Will show the 1 which is the corresponding index for the \"running\"."
+      },
+      {
+        "id": "69308b8ff528a33e94f0b9e7",
+        "text": "running",
+        "explaination": "Incorrect. Will not show the string value."
+      },
+      {
+        "id": "69308b8ff528a33e94f0b9e9",
+        "text": "Mode.running",
+        "explaination": "Mode.running is the enum reference, not the console output."
+      }
+    ],
+    "answer": "69308b8ff528a33e94f0b9ea"
+  }
+]
